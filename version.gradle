@@ -4,9 +4,6 @@
  **/
 ext.deps = [:]
 
-deps.javapoet = 'com.squareup:javapoet:1.9.0'
-deps.javaparser = 'com.github.javaparser:javaparser-core:3.5.0'
-
 /**
  * Shared file between builds so that they can all use the same dependencies and
  * maven repositories.
@@ -15,7 +12,6 @@ ext.build = [:]
 
 def versions = [
         build          : [
-                min_sdk              : 20,
                 target_sdk           : 28,
                 compile_sdk          : 28,
                 build_tools          : "29.0.0",
