@@ -47,7 +47,7 @@ def deps = [
         rxpermissions              : "com.github.tbruyelle:rxpermissions:$versions.third_part.rxpermissions",
         test                       : [
                 rules           : 'androidx.test:rules:1.1.0',
-                junit           : "junit:junit:$versions.test.junit",
+                junit           : "junit:junit:4.12",
                 runner          : 'androidx.test:runner:1.1.0',
                 espresso_core   : 'androidx.test.espresso:espresso-core:3.1.0',
                 espresso_contrib: 'androidx.test.espresso:espresso-contrib:3.1.0'
