@@ -23,9 +23,7 @@ def versions = [
                 rxjava2       : "2.2.0",
                 rx_android    : "2.1.0",
                 fresco_version: "2.0.0",
-                logger_android: "2.2.0",
-                fast4android  : "0.0.6.22",
-                rxpermissions : "0.10.2",
+                logger_android: "2.2.0"
         ],
 ]
 
@@ -40,7 +38,6 @@ def deps = [
         fresco                     : "com.facebook.fresco:fresco:$versions.third_part.fresco_version",
         fresco_gif                 : "com.facebook.fresco:animated-gif:$versions.third_part.fresco_version",
         logging                    : "com.squareup.okhttp3:logging-interceptor:3.9.0",
-        rxpermissions              : "com.github.tbruyelle:rxpermissions:$versions.third_part.rxpermissions",
         test                       : [
                 rules           : 'androidx.test:rules:1.1.0',
                 junit           : "junit:junit:4.12",
